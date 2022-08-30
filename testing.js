@@ -11,6 +11,4 @@ function reverseString(string) {
     return result
 }
 
-/* module.exports = stringLength;
-module.exports = reverseString; */
 export { stringLength, reverseString };

@@ -1,4 +1,3 @@
-/* const lettersAmount = require('./testing'); */
 import { stringLength, reverseString } from './testing.js';
 
 test('Gustavo length is equal to 7', () => {
