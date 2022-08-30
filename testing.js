@@ -6,5 +6,11 @@ function stringLength(string) {
 }
 /* stringLength('lllllllllluuuuuuuu'); */
 
-module.exports = stringLength;
-/* export { stringLength }; */
+function reverseString(string) {
+    const result = [...string].reverse().join('');
+    return result
+}
+
+/* module.exports = stringLength;
+module.exports = reverseString; */
+export { stringLength, reverseString };
