@@ -12,3 +12,13 @@ function reverseString(string) {
 }
 
 export { stringLength, reverseString };
+
+/* para activar BABEL 
+
+***npm install --save-dev babel-jest @babel/core @babel/preset-env***  EN CONSOLA 
+
+CREAR EN RAIZ ARCHIVO babel.config.js y colocar adentro:
+
+module.exports = {
+    presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+  }; */
