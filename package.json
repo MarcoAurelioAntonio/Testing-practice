@@ -1,0 +1,23 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testing.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoAurelioAntonio/Testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoAurelioAntonio/Testing-practice/issues"
+  },
+  "homepage": "https://github.com/MarcoAurelioAntonio/Testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
+}
